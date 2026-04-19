@@ -21,7 +21,7 @@ public abstract class Vehiculo {
 
     public String getNombreMarca(){
     
-    return marca.getDescripcion();
+    return marca.getNombre();
     
     }
 
