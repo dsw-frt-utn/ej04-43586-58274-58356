@@ -121,19 +121,19 @@ public class AgregarVehiculoView extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Tipo");
+        jLabel1.setText("Tipo:");
 
-        jLabel2.setText("Patente");
+        jLabel2.setText("Patente:");
 
-        jLabel3.setText("Marca");
+        jLabel3.setText("Marca:");
 
-        jLabel4.setText("Año");
+        jLabel4.setText("Año:");
 
-        jLabel5.setText("Modelo");
+        jLabel5.setText("Modelo:");
 
-        jLabel10.setText("Km/Litro");
+        jLabel10.setText("Km/Litro:");
 
-        jLabel9.setText("Litros extra ");
+        jLabel9.setText("Litros Extra:");
 
         capacidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,13 +159,13 @@ public class AgregarVehiculoView extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setText("Sucursal");
+        jLabel8.setText("Sucursal:");
 
-        jLabel6.setText("Capacidad de Carga");
+        jLabel6.setText("Capacidad de Carga:");
 
-        jLabel7.setText("Kwh");
+        jLabel7.setText("Kwh Base :");
 
-        jButton2.setText("Tab");
+        jButton2.setText("Cancelar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -268,7 +268,7 @@ public class AgregarVehiculoView extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-//Controlador.botonAgregar(this);        // TODO add your handling code here:
+   Controlador.botonAgregar(this);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed

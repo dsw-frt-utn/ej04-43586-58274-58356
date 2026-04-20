@@ -31,7 +31,12 @@ public class Persistencia {
        marcas.add(m1);
        marcas.add(m2);
     }
-    
+    public static void agregarVehiculos(Vehiculo e){
+         
+         vehiculos.add(e);
+      
+     
+     }
     private static void inicializarVehiculos(){
         Sucursal s1 = sucursales.get(0);
         Sucursal s2 = sucursales.get(1);
