@@ -60,6 +60,12 @@ public class Persistencia {
                 .filter(v -> v.getPatente().equals(patente))
                 .findFirst();
     }
+    public static ArrayList<Marca> getMarcas(){
+        return marcas;
+    }
+     public static ArrayList<Sucursal> getSucursales(){
+        return sucursales;
+    }
     
     public static void inicializar(){
         inicializarMarcas();

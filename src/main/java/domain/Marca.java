@@ -26,5 +26,8 @@ public class Marca {
     public void setPais(String pais) {
         this.pais = pais;
     }
-    
+    @Override
+    public String toString() {
+        return nombre; // lo que se muestra en el combo
+    }
 }

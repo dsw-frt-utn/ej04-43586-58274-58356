@@ -1,6 +1,8 @@
 package views;
 
 import data.Persistencia;
+import domain.Marca;
+import domain.Sucursal;
 import domain.Vehiculo;
 import domain.VehiculoTipo;
 import java.util.ArrayList;
@@ -16,7 +18,16 @@ public class Controlador {
         }
         return vehiculos;
     }
+    public static ArrayList<Marca> getMarcas() {
+    return Persistencia.getMarcas();
+}
     
+      public static ArrayList<Sucursal> getSucursales() {
+    return Persistencia.getSucursales();
+}
+      
+      
+      
     public static double[] calcularConsumos(Map<String, Double> vehiculos){
         double consumoElectricos = 0;
         double consumoCombustible= 0;
