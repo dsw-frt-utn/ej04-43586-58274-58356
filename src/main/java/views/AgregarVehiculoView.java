@@ -310,8 +310,9 @@ public class AgregarVehiculoView extends javax.swing.JFrame {
     }//GEN-LAST:event_patenteActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        ListarVehiculosView view = new ListarVehiculosView();
+        MenuView view = new MenuView();
         view.setVisible(true);    // TODO add your handling code here:
+        this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
